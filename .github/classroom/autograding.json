@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "01Convertidor",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/01Convertidor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "02CalculaGrado",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/02CalculaGrado",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "08TarjeteriaEspanola",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/08TarjeteriaEspanola",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
