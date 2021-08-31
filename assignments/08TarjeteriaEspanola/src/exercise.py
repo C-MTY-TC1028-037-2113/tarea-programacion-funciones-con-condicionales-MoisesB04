@@ -1,10 +1,10 @@
 def tarjetas(pliegos,plumones):
     
-    tarjetasPliegos = pliegos*12
-    tarjetasPlumones = plumones*35
+    tarjetasPliegos = pliegos*12 # Cálculo de tarjetas que puede hacer un pliego
+    tarjetasPlumones = plumones*35 # Cálculo de trajetas que puede hacer un plumón
 
-    if tarjetasPliegos<=tarjetasPlumones:
-        return tarjetasPliegos
+    if tarjetasPliegos<=tarjetasPlumones: 
+        return tarjetasPliegos 
     else:
         return tarjetasPlumones
 

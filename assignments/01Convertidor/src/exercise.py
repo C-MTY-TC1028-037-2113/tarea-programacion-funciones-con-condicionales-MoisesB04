@@ -14,16 +14,16 @@ def main():
     opc = int(input("Introduce una opcion: "))
     valor = int(input("Introduce la cantidad: "))
     if valor >= 0:
-        if opc == 1:
+        if opc == 1: # Opción 1, convierte pies a metros
             print(pies_cm(valor))
-        elif opc == 2:
+        elif opc == 2: # Opción 2, convierte pulgadas a centímetros
             print(pulgadas_cm(valor))
-        elif opc == 3:
+        elif opc == 3: #Opción 3, convierte yardas a centímetros 
             print(yardas_cm(valor))
         else:
             print("Error")
     else:
-        print("Error")
+        print("Error") 
 
 if __name__ == '__main__':
     main()
